@@ -16,3 +16,5 @@ Gets answer in an unorderd way from the terminal and recognizes the parts (where
     <li>pip package management tool</li>
     <li>A google account with google calendar enabled</li>
 </ul>
+
+<p><span style="color:#228B22;">Remark:<span> Do not forget to create you <b>Google Calendar API</b> credentials in the link provided above and save the file in the working directory of the project.</p>
