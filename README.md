@@ -9,3 +9,10 @@ Will use he goolge calendar API: https://developers.google.com/calendar/quicksta
 
 Gets answer in an unorderd way from the terminal and recognizes the parts (where, when, what). Asks for additional information if pitone is not sure about something.
 
+<h1> Requirements:</h1>
+<p> As mentioned in the Google Calendar API (<a href="https://developers.google.com/calendar/quickstart/python">link</a>), these elemnts should be present in order for this project to function:
+  <ul>
+    <li>Python 2.6 or greater</li>
+    <li>pip package management tool</li>
+    <li>A google account with google calendar enabled</li>
+</ul>
