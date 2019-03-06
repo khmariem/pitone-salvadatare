@@ -18,3 +18,9 @@ Gets answer in an unorderd way from the terminal and recognizes the parts (where
 </ul>
 
 <p><span style="color:#228B22;">Remark:<span> Do not forget to create you <b>Google Calendar API</b> credentials in the link provided above and save the file in the working directory of the project.</p>
+  
+<h1> Setup </h1>
+First off, install the dependencies necessary to the functioning of the project. The most important are included in the executable **req** file.
+
+'''bash
+./req
