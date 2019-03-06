@@ -20,7 +20,7 @@ Gets answer in an unorderd way from the terminal and recognizes the parts (where
 <p><span style="color:#228B22;">Remark:<span> Do not forget to create you <b>Google Calendar API</b> credentials in the link provided above and save the file in the working directory of the project.</p>
   
 <h1> Setup </h1>
-First off, install the dependencies necessary to the functioning of the project. The most important ones are included in the executable **req** file. You will also need to generate your credentials to use the Google Calendar API which should be placed in the pitone-salavadatare folder. You can llok at step 1 in the <a href="https://developers.google.com/calendar/quickstart/python">link</a> that we have mentioned already.
+First off, install the dependencies necessary to the functioning of the project. The most important ones are included in the executable <b>req</b> file. You will also need to generate your credentials to use the Google Calendar API which should be placed in the pitone-salavadatare folder. You can look at step 1 in the <a href="https://developers.google.com/calendar/quickstart/python">link</a> that we have mentioned already.
 
 ```
 $ ./req
@@ -32,4 +32,4 @@ Second, run the project:
 $ python pitone
 ```
 
-You will need to authorize the account and allow the required accesses. You should do thsi everytime you regenerate the token.pickle file. So, if it's saved, this authorization only happens once.
+You will need to authorize the account and allow the required accesses. You should do this everytime you regenerate the token.pickle file. So, if it's saved, this authorization only happens once.
