@@ -37,10 +37,12 @@ def create(parsed_user_input):
         # Save the credentials for the next run
         with open('token.pickle', 'wb') as token:
             pickle.dump(creds, token)
+    print(os.path.abspath('token.pickle'))
 
     service = build('calendar', 'v3', credentials=creds)
 
     print('Creating the event.....')
-    events = service.events().insert(calendarId='primary', body=parsed_user_input).execute()
+    event = service.events().insert(calendarId='primary', body=parsed_user_input).execute()
     print("Event created at: %s" % (event.get('htmllink')))
+
 
