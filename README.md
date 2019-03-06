@@ -23,13 +23,13 @@ Gets answer in an unorderd way from the terminal and recognizes the parts (where
 First off, install the dependencies necessary to the functioning of the project. The most important ones are included in the executable **req** file. You will also need to generate your credentials to use the Google Calendar API which should be placed in the pitone-salavadatare folder. You can llok at step 1 in the <a href="https://developers.google.com/calendar/quickstart/python">link</a> that we have mentioned already.
 
 ```
-./req
+$ ./req
 ```
 
 Second, run the project:
 
 ```
-python pitone
+$ python pitone
 ```
 
 You will need to authorize the account and allow the required accesses. You should do thsi everytime you regenerate the token.pickle file. So, if it's saved, this authorization only happens once.
